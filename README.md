@@ -22,20 +22,31 @@ This project aims to transform raw real estate data into actionable business ins
 
 ---
 
+## 📁 Datasets Used
+
+This project uses three datasets:
+
+* **Real_Estate_Agents.csv** – Information about real estate agents and their activities.
+* **Real_Estate_Market_Trends.csv** – Market indicators, pricing trends, and economic factors.
+* **Real_Estate_Properties_Transactions.csv** – Property listings and transaction details.
+
+---
+
 ## 🛠️ Tools & Technologies
 
 * **Database:** MySQL
 * **Language:** SQL
-* **Techniques Used:**
 
-  * Common Table Expressions (CTEs)
-  * Window Functions
-  * Ranking Functions
-  * Aggregate Functions
-  * CASE Statements
-  * Subqueries
-  * Data Cleaning & Imputation
-  * Time-Series Analysis
+### SQL Techniques Used
+
+* Common Table Expressions (CTEs)
+* Window Functions
+* Ranking Functions
+* Aggregate Functions
+* CASE Statements
+* Subqueries
+* Data Cleaning & Imputation
+* Time-Series Analysis
 
 ---
 
@@ -51,9 +62,9 @@ This project aims to transform raw real estate data into actionable business ins
 ### 2. Data Cleaning & Integrity Management
 
 * Standardized missing property types.
-* Created reusable templates for median and mean imputation.
 * Implemented duplicate removal strategies.
-* Corrected extreme pricing values using the 99th percentile cap.
+* Corrected extreme pricing values using percentile-based capping techniques.
+* Applied data validation checks to ensure consistency.
 
 ### 3. Market Trends & Pricing Analysis
 
@@ -78,7 +89,6 @@ This project aims to transform raw real estate data into actionable business ins
 
 ### 6. Buyer Segmentation & Affordability Analysis
 
-* Tracked investor activity trends over time.
 * Calculated price-to-income ratios.
 * Classified affordability stress across income groups.
 * Ranked cities based on investor activity.
@@ -119,18 +129,20 @@ This project aims to transform raw real estate data into actionable business ins
 * Window Functions
 * CTEs and Subqueries
 * Data Storytelling
+* Business Recommendation Generation
 
 ---
+
 ## 📂 Project Structure
 
 ```text
 Real-Estate-Market-Transaction-Analysis/
+├── README.md
 ├── REAL_ESTATE_ANALYSIS.sql
-├── Real_Estate_Business_Problem_Statement.pdf
 ├── Real_Estate_Agents.csv
+├── Real_Estate_Business_Problem_Statement.pdf
 ├── Real_Estate_Market_Trends.csv
-├── Real_Estate_Properties_Transactions.csv
-└── README.md
+└── Real_Estate_Properties_Transactions.csv
 ```
 
 ---
@@ -141,7 +153,6 @@ Real-Estate-Market-Transaction-Analysis/
 
 📧 Email: [hareendran2003@gmail.com](mailto:hareendran2003@gmail.com)
 
-💻 GitHub: https://github.com/yourusername
+💻 GitHub: https://github.com/hareendran2003
 
-💼 LinkedIn: https://linkedin.com/in/yourprofile
-
+💼 LinkedIn: https://www.linkedin.com/in/your-linkedin-profile
