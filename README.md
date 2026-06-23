@@ -127,7 +127,9 @@ This project aims to transform raw real estate data into actionable business ins
 Real-Estate-Market-Transaction-Analysis/
 ├── REAL_ESTATE_ANALYSIS.sql
 ├── Real_Estate_Business_Problem_Statement.pdf
-├── Dataset Files (3 CSV files)
+├── Real_Estate_Agents.csv
+├── Real_Estate_Market_Trends.csv
+├── Real_Estate_Properties_Transactions.csv
 └── README.md
 ```
 
